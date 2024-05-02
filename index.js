@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 // RTMP server configuration
 const config = {
   rtmp: {
-    port: 1936,
+    port: 1935,
     chunk_size: 60000,
     gop_cache: true,
     ping: 60,
